@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+ }
+ nav{
+    height: 70px;
+    width:  100%;
+    background-color: black;
+    color: whitesmoke;
+ }
+ nav>ul{
+    /* border: 2px solid red; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+    list-style: none;
+    padding: 0 10px;
+
+ }
+ nav ul>li:first-child{
+    margin-right: auto;
+ }
+ nav li:hover{
+    color: rgb(50, 169, 91);
+    cursor: pointer;
+ }

@@ -1,0 +1,28 @@
+/* 
+decendent: it will target direct child as well as indirect child.
+It is denoted by Empty_space
+*/
+section div{
+    background-color: yellow;
+}
+
+/*  
+child selector : it will on target direct child only
+it is denoted by  (greater than)
+ */
+ section > div{
+    background-color: blue;
+ }
+ /* 
+ adjacent Sibling: it will target next element present just after the closing of targeted element.
+ it will denoted by (+)
+  */
+  section + nav{
+    background-color: red;
+  }
+  /* 
+  general Sibling: it will target all the element which is present after the closing of targeted element.
+  it is denoted by (tilde)  */
+  section~div{
+    background-color: purple;
+  }

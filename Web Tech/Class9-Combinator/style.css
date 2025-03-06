@@ -1,0 +1,18 @@
+*{ 
+    font-family: cursive;
+    background-color: lightblue;
+}
+
+/* universal selector always on top */
+
+.content{
+    background-color: aqua;
+}
+.content2{
+    background-color: white;
+}
+
+#navbar,.sidebar,footer{
+ background-color: greenyellow;
+}
+

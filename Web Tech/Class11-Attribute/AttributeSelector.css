@@ -1,0 +1,28 @@
+div[name]{
+    background-color: yellow;
+}
+div[name="box2"]{
+    background-color: red;
+}
+
+section[name~="box"]{
+    /* we are using tilde because we have easy to target name and we can write and one name after space */
+    background-color: red;
+}
+article[name |= "container"]{
+    /* exact value or followed by hifun */
+    background-color: green;
+}
+nav[name ^="na"]{
+/* we can use power cap for this use (start with) */
+    background-color: purple;
+}
+
+main[name $="ox"]{
+    /* we can use this for ends with  */
+    background-color: rgb(172, 38, 38);
+}
+footer[name*="am"]{
+    /* in between tags  */
+background-color: gold;
+}

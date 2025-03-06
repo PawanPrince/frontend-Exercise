@@ -1,0 +1,37 @@
+p::first-letter{
+font-size: 40px;
+color: blue;
+}
+
+p::first-line{
+    color: red;
+}
+
+p::selection{
+    background-color: yellow;
+    color: rgb(247, 163, 177);
+}
+
+h3::before{
+    content: "😍";
+}
+
+h3::after{
+    content: "👀";
+}
+
+
+
+/* for change dot color in list  */
+
+/* ul>li::marker{
+    color: brown;
+}
+
+ol>li::marker{
+    color: khaki;
+} */
+
+::marker{
+    color: red;
+}
