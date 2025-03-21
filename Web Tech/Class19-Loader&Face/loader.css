@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;        
+}
+
+.loader{
+    height: 200px;
+    width: 200px;
+    border: 20px solid gainsboro;
+    border-top: 20px solid black;
+    border-radius: 50%;
+    animation-name: loadermove;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin: 200px auto;
+
+ }
+ @keyframes loadermove{
+    from{
+      transform: rotate(0deg);
+    }
+    to{
+
+      transform: rotate(360deg);
+
+    }
+ }

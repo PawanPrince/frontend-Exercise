@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;        
+}
+main{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    position: absolute;
+    animation-name: box1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /* animation-delay: 2s; */
+    animation-timing-function: linear;
+
+}
+@keyframes box1{
+    from{
+        top: 0;
+        left: 0;
+    background-color: red;
+    border-radius: 0;
+
+
+
+    }
+to{
+    top: 0;
+    left: 800px;
+    background-color: orange;
+    border-radius: 50%;
+}
+ }
