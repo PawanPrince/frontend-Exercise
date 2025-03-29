@@ -1,0 +1,23 @@
+main{
+    /* height: 80vh; */
+    /* height: auto; */
+    min-height: 80vh;
+    width: 80vw;
+    background-color: red;
+    margin: 10px auto;
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+    /* overflow-y: scroll; */
+    gap: 20px;
+
+}
+
+main>div{
+    height: 150px;
+    width:  150px;
+    background-color: aqua;
+    border: 2px solid black;
+}

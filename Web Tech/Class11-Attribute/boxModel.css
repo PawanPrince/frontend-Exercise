@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*
+margin: 10px (for all sides)
+        10px 20px (top/bottom   left/right)     
+        10px 20px 30px ( top left/right Bottom)
+        10px 20px 30px 40px (T,  R, B, L) 
+
+INPADDING NEGETIVE VALUE IS NOT ALLOWED
+        */
+
+main{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    /* margin-left: 100px;
+    space out side of the box  */
+    padding: 10px;
+    /* space between content and border  */
+    box-sizing: content-box;
+    background-color: aqua;
+}
+section{
+    height: 200px;
+    width:  200px;
+    border: 10px solid black;
+    /* margin-left: 100px;
+    space out side of the box  */
+    padding: 5px;
+    /* space between content and border  */
+    box-sizing: border-box;
+    background-color: rgb(208, 84, 84);
+}
