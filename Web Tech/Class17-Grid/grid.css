@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;        
+}
+#gridcontainer{
+    height: 70vh;
+    width: 80vw;
+    background-color: rgb(177, 229, 23);
+    margin: 100px auto;
+    display: grid;
+    /* grid-template-rows: 120px 130px ; */
+    /* works on y-axis. */
+
+    /* grid-template-columns: 1fr 1fr 1fr;  */
+    grid-template-columns: repeat(3,1fr); 
+    /* works on x axis */
+    justify-items: center;
+    /* works on x axis  */
+    align-items: center;
+    /* works on Y axis  */
+    /* row-gap: 30px;
+    column-gap: 30px; */
+    gap: 30px 60px;
+
+}
+.item{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+}
+.item2{
+    justify-self: flex-start;
+    /* works on x axis  */
+    align-self: flex-start ;
+    /* works on Y axis  */
+}
+.item3{
+    justify-self: flex-end;
+    /* works on x axis  */
+    align-self: flex-end ;
+    /* works on Y axis  */
+}
